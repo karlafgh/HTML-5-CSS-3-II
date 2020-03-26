@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+div{
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    height: 0px;
+    padding-top: 6px;
+    padding-bottom: 28px;
+}
+#contact{
+    float: right;
+    padding-top: 40px;
+    background: white;
+}
+#contact p{
+    margin: 0px;
+    position: relative;
+    left: -160px;
+    top: -0.50px;
+    color: black;
+}
+#contact li{
+    float: left;
+    list-style: none;
+    margin-right: -160px;
+    position: relative;
+    left: -270px;
+    top: -20px;
+}
+.iconos{
+    width: 50px;
+    height: 50px;
+}
+img{
+   height: 120px; 
+   width: 140px;
+   margin-left: 150px;
+   margin-top: 20px;
+   margin-bottom: 0%;
+}
+/* estructura de la botonera (su posicion, color, margen, etc) */
+nav{    
+    margin-left: 130px;
+    list-style: none;
+    width: 1080px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    background: #F5769F;
+    position: relative;
+    top: 25px;
+}
+/*la lista en conjunto*/
+nav li{
+    margin-top: -100px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*este abarca la etiqueta "a" de inicio, eventos y sobre nosotos*/
+.f_nav{
+    margin-right: 8px;
+    position: relative;
+    top: 14px;
+}
+.s_nav{
+    right: -6x;
+    position: relative;
+    top: 14px;
+}
+.flavors{
+    right: 50;
+    top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+}
+/*menu despegable de Sabores*/
+nav li ul{
+    position: relative;
+    display: none;
+}
+nav li ul li{
+    display: block;
+}
+nav li:hover ul{
+    display: block;
+    visibility: visible;
+}
+nav li ul:hover a{
+    background: chartreuse;
+}
+#brown{
+    padding-top: 0%;
+    padding-left: 24px;
+    background:#8E5C51; 
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+}
+#p_img{
+    height: 440px;
+    width: 1348px;
+    margin: 0%;
+}

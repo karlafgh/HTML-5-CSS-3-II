@@ -1,0 +1,207 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+body{background: #ECEFF1;}
+figure{
+    width: 200px;
+    margin-left: 100px;
+}
+figure:hover{
+    transform: rotateZ(-30deg);
+    transition-timing-function: ease, ease-out;
+}
+header{
+    height: 690px;
+    background-image: url(../img4/banner.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    /*con los 90Â° le estoy diciendo al degradado que se proyecte de derecha a izquierda*/
+    background: linear-gradient(90deg, rgb(131,96,195),rgb(46,191,145));
+    position: absolute;
+    opacity: 0.8;
+}
+a[href="#n"], h1, .p_white{color: white;}
+h1{
+    font-size: 120px;
+    margin-top: 55px;
+}
+h1 + p{
+    font-size: 15px;
+    margin-bottom: 52px;
+}
+#botonera > li{
+    display: initial;
+    margin-right: 1em;
+}
+a[href="#n"]:hover{
+    color: #fff77c;
+    text-decoration: overline;
+}
+/*recordar que para darle ancho a los botones lo hago con el padding*/
+.boton{
+    border-radius: 1.8em;
+    padding: 18px 30px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#primer_boton{
+    border: 2px solid;
+    margin-left: 471px;
+    border-color: #fff77c;
+    color: #fff77c;
+}
+#primer_boton:hover{
+    background: #fff77c;
+    color: rgb(131,96,195);
+}
+nav{
+    /*Recuerda que cuando quieras flotar  los li debes hacerlo desde el nav ya que,
+    si lo haces desde el li cambian de posicion*/
+    margin-right: 6em;
+    float: right;
+    margin-top: -100px;
+}
+li > a{
+    text-decoration: none;
+    font-size: 1.22em;
+}
+#primer_subtitulo, #tercer_subtitulo{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 50px;
+    color: #333333;
+}
+img[alt="service_pic"]{
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+}
+.lista_servicio > li{
+    width: 350px;
+    height: 350px;
+    background: white;
+    display: inline-block;
+    margin: 30px 25px;
+    border-radius: 2%;
+    padding-top: 30px;
+    box-shadow: .1px .1px 13px rgb(144,164,174);
+    padding-bottom: 10px;
+}
+#social_media{margin-left: 100px;}
+h1, h3, p{text-align: center;}
+h3{
+    font-size: 1.5em;
+    color: rgb(131,96,195);
+    padding-bottom: 10px;
+}
+.CTA_empresa, footer{background: linear-gradient(90deg, rgb(131,96,195),rgb(46,191,145));}
+.CTA_empresa{
+    height: 200px;
+    margin-top: 30px
+}
+#segundo_subtitulo{
+    font-weight: none;
+    color: white;
+    font-size: 3em;
+    font-style:italic;
+    padding-top: 70px;
+    font-weight: 100;
+    padding-left: 70px;
+}
+a[href="#"]{
+    background: #fff77c;
+    color: rgb(131,96,195);
+}
+a[href="#"]:hover{
+    background: none;
+    border: 2px solid;
+    border-color: #fff77c;
+    color: #fff77c;
+}
+#boton_cta{
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.img_clientes{
+    height: 130px;
+    padding-bottom: 30px;
+}
+.isotipo_apple{
+    height: 200px;
+    width: 260px;
+    margin-right: -50px;
+}
+.logo_samsung{ 
+    height: 200px;
+    width: 190px;
+}
+.isotipo_twitter{
+    width: 200px;
+    height: 190px;
+}
+.lista_clientes > li{
+    display: inline-block;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+}
+img[alt*="o"]{
+    filter: grayscale(100%);
+    margin-left: 70px;
+    opacity: .5;
+}
+img[title*="1"]:hover{
+    transition-delay: 0s, 0.5s;
+    transform: skew(5deg, 15deg);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+img[title*="2"]:hover{
+    transition-delay: .5s, 2s;
+    transform: rotateX(50deg);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+img[title*="3"]:hover{
+    transition-delay: .9s, 0.5s;
+    transform: rotateY(-50deg);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.clientes{
+    background: white;
+    margin-top: -48px;
+}
+#tercer_subtitulo{padding-top: 45px}
+footer{height: 450px;}
+footer > p{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+footer > figure{
+    width: 230px;
+    margin-left: 550px;
+    padding-top: 80px;
+}
+footer > figure:hover{transform: translate(2px, -40px)}
+hr{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 620px;
+}
+/*transfromacion de las  img de servicios*/
+img[title="servicios"]:hover{
+    transform: scale(1.3, 1.3);
+    transition-duration: 2s;
+}

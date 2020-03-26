@@ -1,0 +1,129 @@
+body{font-family: 'Roboto Slab', serif;}
+/*selector hijo directo #1*/
+div > p{font-family: 'Roboto', sans-serif;}
+/*selector atributo contenido #1*/
+section[id*="v"]{
+	text-align: center;
+	background: #f4f5f4;
+}
+#empresa, #servicios{padding: 3em 0;}
+/*hermano adyacente #1*/
+#servicios span + h2{
+	color: #0056b8;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+	font-weight: 400;
+}
+.col-md-12 > h2{
+	color: #0056b8;
+	margin-bottom: 2em;
+    font-weight: 700;
+	font-size: 42px;
+	margin-bottom: 0.50em
+}
+/*hermano adyacente #2*/
+#servicios h2 + p{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 4em;
+}
+#servicios span{
+	font-size: 4em;
+	border-radius: 50%;
+	border: 1px solid #E2EAEC;
+	padding: 1em;
+	color: #f6d93c;
+}
+#servicios .col-md-3:hover span{
+	color: #fff;
+	background: #0056B8;
+	border: 1px solid #fff;
+	transition: all .8s ease;
+}
+/*selector atrinuto igual #2*/
+div[class="col-md-3"]{ cursor: pointer;}
+#empresa{
+	background: #0056b8;
+	color: #fff;
+	padding: 2em 0;
+}
+/*hermano adyacente #3*/
+h3 + p{font-size: 1.4em;}
+/*selector hijo directo #2*/
+.col-md-8 > p{font-size: 1.4em;}
+#empresa h2, #empresa h3{
+	color: #f6d93c;
+	font-weight: 700;
+}
+#empresa h2{
+	font-size: 2.5em;	
+	margin: 1em 0;
+	text-align: center;
+}
+header{
+	left: 0;
+	padding: 2em 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 9;
+}
+.panel-body{padding: 3em;}
+#consulta{padding: 2em 0;}
+#consulta, #contacto{
+	text-align: center;
+	margin: 3em 0;
+}
+/*hermano adyacente #4*/
+#consulta h2 + p{margin-bottom: 2em;}
+.btn-default{
+	background: #0056B8;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 1em 2em;
+	margin-top: 1em;
+}
+#contacto{
+	background: #F6D93C;
+	padding: 4em 0;
+}
+/*hijo directo*/
+.col-md-4 > span{
+	font-size: 3em;
+	margin: 1em 0;
+	color: #fff;
+}
+/*selector atributo igual #3*/
+div[class="contacto"]{font-size: 1.5em;}
+footer{text-align: center;}
+/*selector hijo directo #3*/
+ul > li{
+	text-transform: uppercase;
+	margin-top: 2em;
+}
+/*hijo directo #4*/
+li > a{padding: .8em 1.3em;}
+nav a:hover{ 
+	background: #0056b8;
+	color: #fff;
+	border-radius: .5em;
+	text-decoration: none;
+}
+#sliders img{border-bottom: 10px solid #F6D93C;}
+/*selector hijo directo #5*/
+footer > p{
+	font-weight: 300;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+/*selector atributo igual #4*/
+span[id="btn-subir"]{
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+	z-index: 9999;
+	top: inherit;
+	font-size: 4em;
+	cursor: pointer;
+}

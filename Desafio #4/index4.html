@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio #4</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img4/logo.svg" title="este es el isotipo de la empresa" alt="img_empresa">
+        </figure>
+        <div id="fondo_gradient"></div>
+        <nav>
+            <ul id="botonera">
+                <li><a href="#n">INICIO</a></li>
+                <li><a href="#n">SERVICIOS</a></li>
+                <li><a href="#n">SOBRE NOSOTROS</a></li>
+                <li><a href="#n">BLOG</a></li>
+                <li><a href="#n">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <h1>AGENCIA</h1>
+        <p class="p_white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis ullam</p>
+        <a class="boton" id="primer_boton" href="#servicios_section">VER SERVICIOS</a>
+        <a class="boton" href="#">CONTACTAR</a>
+    </header>
+
+    <section class="servicios_section">
+        <h2 id="primer_subtitulo">SERVICIOS</h2>
+
+        <!--Puse los paneles de servicio dentro de una lista para que estuviesen todos en una misma fila-->
+        <ul class="lista_servicio"> 
+            <li id="social_media">
+                <div class="service_panel"s>
+                    <img src="img4/diseño-web.png"  title="servicios" alt="service_pic">
+                    <h3>Diseño Web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis ullam</p>
+                </div>
+            </li>
+            <li>
+                <div class="service_panel">
+                    <img src="img4/social-media.png" title="servicios"  alt="service_pic">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis ullam</p>
+                </div>
+            </li>
+            <li>
+                <div class="service_panel">
+                    <img src="img4/seo.png"  title="servicios" alt="service_pic">
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis ullam</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="CTA_empresa">
+        <h2 id="segundo_subtitulo">¡Te preparámos para trabajar!</h2>
+        <a class="boton" id="boton_cta" href="#">CONTACTAR</a>
+    </section>
+
+    <section class="clientes">
+        <h2 id="tercer_subtitulo">NUESTROS CLIENTES</h2>
+        <ul class="lista_clientes">
+            <li><img src="img4/logo-apple.png" title="hola, soy un cliente 2" alt="logo del cliente" class="isotipo_apple"></li>
+            <li><img src="img4/logo-samsung.png" title="hola, soy un cliente 3" alt="logo del cliente" class="logo_samsung"></li>
+            <li><img src="img4/logo-google.png" title="hola, soy un cliente 1" alt="logo del cliente" class="img_clientes"></li>
+            <li><img src="img4/logo-pepsi.jpg" title="hola, soy un cliente 1" alt="logo del cliente" class="img_clientes"></li>
+            <li><img src="img4/logo-twitter.png" title="hola, soy un cliente 1" alt="logo del cliente" class="isotipo_twitter"></li>
+        </ul>
+    </section>
+
+    <footer>
+        <figure id="isotipo">
+            <img src="img4/logo.svg" title="este es el isotipo de la empresa" alt="img_empresa"> 
+        </figure>
+        <!--esta es la etiqueta de una línea horizontal-->
+        <hr>
+        <!--el © lo hago con alt presionado + 00169-->
+        <p class="p_white">Todos los derechos reservados para <strong>©CADIF1</strong></p>
+    </footer>
+</body>
+</html>

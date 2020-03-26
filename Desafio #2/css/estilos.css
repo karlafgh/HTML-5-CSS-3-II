@@ -1,0 +1,41 @@
+*{
+    margin: 0%; 
+    padding: 0; 
+    border: 0%
+}
+div{
+    position: fixed; 
+    width: 200px; 
+    height: 200px;
+}
+#blue{
+    background: #44accf; 
+    right: 1px; 
+    position: fixed; 
+    z-index: 0;
+}
+#red{
+    background:#ee3e64; 
+    position: fixed; 
+    z-index: 1;
+}
+#apple_green{
+    background:#b7d84b; 
+    bottom: 0px; 
+    z-index: 2;
+}
+#yellow{
+    background:#ebde52; 
+    bottom: 0px; 
+    right: 1px; 
+    position:fixed; 
+    z-index: 3;
+}
+.orange{
+    background: #f95b34; 
+    width: 50px; 
+    height: 50px; 
+    position: relative; 
+    margin-top: 80px; 
+    margin-left: 76px;
+}
